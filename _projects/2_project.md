@@ -4,6 +4,9 @@ title: Non Holonomic RRT with Dynamic Replanning and Obstacle Mapping
 description: 
 img: assets/img/publication_preview/mobile.png
 importance: 2
+pdf: /assets/pdf/169_Final_Report.pdf
+video: /assets/video/169_Final_Video.mp4
+abstract: This project aims to develop a real mobile robot (Raspberry Pi based) with advanced capabilities, including initial global localization using Monte Carlo Localization, smooth car-like driving, and efficient path planning through narrow and complex areas. The robot can detect and avoid new obstacles, dynamically update an "Obstacle Map," and replan its path. Utilizing RRT-based motion planners for non-holonomic robots, the project focuses on two-wheeled systems like cars and car-trailer combinations. These planners generate raw paths refined through post-processing for smooth, collision-free navigation. Experiments and analyses show the non-holonomic RRT algorithm's effectiveness, which can ehnace autonomous navigation in challenging environments for applications such as smart cars and planetary rovers.
 category: Graduate Projects
 ---
 

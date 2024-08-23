@@ -1,9 +1,13 @@
 ---
 layout: page
 title: Autonomous Robotic Grasping
-description: Exploring vision-based robotic grasping for effective object manipulation in static and dynamic environments.
 img: assets/img/publication_preview/arg.png
+description: 
 importance: 4
+pdf: /assets/pdf/arg_final_report.pdf
+video: /assets/video/arg_final.mp4
+slides: /assets/pdf/arg_ppt.pdf
+abstract: Autonomous Robotic Grasping (ARG) is key to attaining the promise of intelligent robotics. The primary premise underlying vision-based ARG is the capacity of a robot to “perceive" its surroundings using vision sensors to constructively interact with various objects to accomplish a given task of interest. However, the real world consists of many highly variable aspects. It is neither tractable nor feasible for a robot to accurately represent its surroundings, the things in it, and the complex interactions among them. Therefore, learning is crucial in such intelligent autonomous systems to acquire the ability to perform skilled manipulation tasks. Effective ARG systems have many applications in various domains. They can be deployed in industries, spacecraft, restaurants, and homes to perform or assist human experts in performing versatile and repetitive manipulation tasks. In this project, the following two challenging ARG tasks (Objectives) are considered which are almost ubiquitously found problems that an intelligent robotic arm can automate => Task I - Grasping Various Objects in Diverse Environments and Task II - Dynamic Grasping of Moving Objects. In addition, the basic steps and tasks necessary for performing complex ARG tasks in a “real” robotic setup are taken into account as a part of the problem statement of this work.
 category: Undergraduate Thesis Project
 ---
 

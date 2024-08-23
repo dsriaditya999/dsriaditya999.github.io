@@ -1,9 +1,11 @@
 ---
 layout: page
 title: Swadeshi Microprocessor Challenge
-description: An FMCW Radar Module for Driving Assistance
+description:
 img: assets/img/publication_preview/proc.png
 importance: 7
+github: https://github.com/dsriaditya999/ProjIkshana
+abstract: Technological advancements in Signal Processing and millimeter-wave (mm-wave) semiconductor technology have significantly impacted the automobile industry, particularly in enhancing Autonomous Vehicles and Advanced Driving Assistance Systems (ADAS). Automotive radar, particularly Frequency Modulated Continuous Wave (FMCW) radars, has become a popular choice for robust and cost-effective performance in challenging environmental conditions. The proposed Ikshana FMCW Radar Module, utilizing the Vajra (C64-A100, Shakti C-class) SoC from IIT Madras, aims to provide a low-cost, indigenous solution for applications such as autonomous vehicles and night-vision goggles. Implemented on a Xilinx Arty A7 FPGA with planned soft-core extensions, this module represents an innovative approach to leveraging indigenous microprocessors, as highlighted in the Swadeshi Microprocessor Challenge by the Ministry of Electronics and Information Technology, Government of India.
 category: Undergraduate Projects
 ---
 

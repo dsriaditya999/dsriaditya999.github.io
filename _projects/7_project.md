@@ -1,9 +1,12 @@
 ---
 layout: page
 title: Scene Text Recognition
-description: Recognizing Text in Ubiquitous Scenes
+description:
 img: assets/img/publication_preview/mlsp.png
 importance: 7
+abstract: Text is one of the most effective forms of communication among human beings. Recognizing text automatically & efficiently in everyday scenes is an invaluable tool in many applications. In this project, we delve into the fascinating domain of Scene Text Recognition (STR) utilizing advanced deep learning methodologies. This project addresses the crucial task of automatic text recognition in natural scenes, a challenge due to the intertwined visual and semantic information and the variability in text appearance caused by environmental factors. We explore and experiment with various architectures, including Convolutional Neural Networks (CNNs) for visual feature extraction and Recurrent Neural Networks (RNNs) for semantic understanding, focusing on both regular and irregular text recognition. Notably, our work incorporates Spatial Transformation Networks (STNs) to rectify distorted text, enhancing the accuracy of text recognition. Through rigorous experimentation and analysis on diverse datasets, we provide insights into the models' performance, contributing valuable knowledge for applications in document analysis, autonomous vehicles, and augmented reality. Our findings indicate the potential for significant advancements in STR, paving the way for future research and practical implementations.
+pdf: /assets/pdf/MLSP_Project_Report.pdf
+slides: /assets/pdf/mlsp_ppt.pdf
 category: Undergraduate Projects
 ---
 

@@ -4,12 +4,20 @@ title: projects
 permalink: /projects/
 description:
 nav: true
-nav_order: 3
+nav_order: 2
 display_categories: [Graduate Projects, Undergraduate Thesis Project, Undergraduate Projects]
 horizontal: false
 ---
 
 <!-- pages/projects.md -->
+<style>
+/* Apply dynamic color directly to the category heading */
+.projects h2.category {
+  color: var(--color-heading); /* Al-Folio's heading color variable */
+  margin-bottom: 0.5rem;
+}
+</style>
+
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
