@@ -8,6 +8,15 @@ nav: true
 ---
 
 <div class="caption">
+    National Conference on Computer Vision, Pattern Recognition, Image Processing and Graphics (NCVPRIPG) 2024
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/iist_conf.png" title="National Conference on Computer Vision, Pattern Recognition, Image Processing and Graphics (NCVPRIPG) 2024" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="caption">
     Integrated Design of Space Vehicles
 </div>
 <div class="row">
