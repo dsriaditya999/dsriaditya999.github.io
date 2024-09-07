@@ -34,6 +34,16 @@
             </div>
           {% endif %}
 
+          {% if project.post %}
+            <div class="icon" data-toggle="tooltip" title="Post" style="flex: 1;">
+              <a href="{{ project.post }}" class="text-decoration-none" style="color: inherit;">
+                <i class="fa-solid fa-blog" style="font-size: 1.5rem;"></i>
+                <div style="font-size: 0.75rem; color: inherit;">Post</div>
+              </a>
+            </div>
+          {% endif %}
+
+
           {% if project.video %}
             <div class="icon" data-toggle="tooltip" title="Video" style="flex: 1;">
               <a href="{{ project.video }}" class="text-decoration-none" style="color: inherit;">
