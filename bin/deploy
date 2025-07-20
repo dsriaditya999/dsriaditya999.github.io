@@ -114,6 +114,9 @@ git commit --allow-empty -m "$(git log -1 --pretty=%B) [ci skip]"
 # Move back to SRC_BRANCH
 git checkout $SRC_BRANCH
 
+# 🚨 NEW: clean up any untracked files (your moved _site contents)
+git clean -fdx
+
 echo "Deployed successfully!"
 
 exit 0
