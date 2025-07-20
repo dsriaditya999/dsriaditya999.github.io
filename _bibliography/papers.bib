@@ -22,7 +22,7 @@
 @ARTICLE{Deevi_2025_IMCOM,
     author    = {Deevi, Sri Aditya and Mishra, Asish Kumar and Mishra, Deepak and L., Ravikumar and GVP, Bharat Kumar and G., Murali Krishna Bhagavan},
     title     = {Efficient Self-Supervised Neural Architecture Search},
-    journal = {Proceedings of International Conference on Ubiquitous Information Management and Communication (IMCOM) 2025},
+    journal = {Proceedings of International Conference on Ubiquitous Information Management and Communication (IMCOM)},
     abstract = {Deep Neural Networks (DNNs) have successfully demonstrated superior performance on many tasks across multiple domains. Their success is made possible by expert practitioners' careful design of neural architectures. This manual handcrafted design requires a colossal number of computational resources, time, and memory to arrive at an optimal architecture. Automated Neural Architecture Search (NAS) is a promising area to explore to overcome these issues. However, optimizing a network for a job is a tedious task that requires lengthy search time, high processor needs, and a thorough examination of enormous possibilities. The need of the hour is to develop a strategy that saves time while maintaining an excellent level of accuracy. In this paper, we design, explore, and experiment with various differentiable NAS methods which are memory, time, and compute efficient. We also explore the role and efficacy of self-supervision to guide the search for optimal architectures. Self-supervision offers numerous advantages such as facilitating the use of unlabelled data and making the “learning” non-task specific, thereby improving transfer to other tasks. To study the inclusion of self-supervision into the search process, we propose a simple loss function consisting of a convex combination of supervised cross-entropy loss and self-supervision loss. In addition, we carried out various analyses to characterize the performance of different approaches considered in this paper. The inspection of results obtained from various experiments on CIFAR-10 reveals that the proposed methodology balances time and accuracy while staying as near as possible to the state-of-the-art results.},
     month     = {February},
     year      = {2025},
@@ -30,6 +30,29 @@
     preview   = {essnas.gif},
     video     = {https://youtu.be/r_Wl1JFt4zY},
     slides    = {esnas_slides.pdf}
+}
+
+
+@ARTICLE{Deevi_2024_satpose,
+    author    = {Paul, Abraham and G.L, Anoop and Kumar R., Ganesh and Singh, Aryan and Deevi, Sri Aditya and L., Ravikumar},
+    title     = {Effective Landmark Regression using Attention-based HRNet for Satellite Pose Estimation},
+    journal = {Proceedings of South Asian Research Center (SARC) International Conference},
+    abstract = {For many space missions, it is important to estimate the position and orientation of the satellite for operations such as docking and debris removal. It involves the following stages of object detection, landmark regression and pose estimation. For objection detection, we used Faster-RCNN with HRNet as the backbone, the landmark regression part is done using AHRNet architecture, the pose estimation is implemented using PnP algorithm. Firstly, each image was labeled for object detection with bounding boxes around the satellite images created in Blender which were then used to train for satellite detection. An AHRNet was further trained for landmark regression using a 4fold cross-validation approach which involved splitting the dataset into multiple training and validation sets to enhance the Intersection over Union (IoU) metric. After the landmark regression provided a 2D projection of 3D ground truth points, the PnP algorithm was then used for pose estimation. To improve pose estimation accuracy, we integrated solvePnP with an iterator argument utilizing the Levenberg-Marquardt (LM) method to reduce noise and outliers. Our methodology significantly enhances the precision and efficiency of the translation and rotation error of the satellite during the docking processes offering a viable solution for autonomous space missions with potential for future improvements in domain adaptability through the development of unsupervised domain adaptation models. The results of the landmark regression using AHRNet shows an improved reprojection error, orientation and translation errors.},
+    month     = {November},
+    year      = {2024},
+    html      = {https://digitalxplore.org/proceeding.php?pid=2707},
+    preview   = {satpose.gif}
+}
+
+
+@ARTICLE{Deevi_2025_ldsim,
+    author    = {Deevi, Sri Aditya and Chaudhary, Aakash and Lakkoju, Samuel and G., Murali Krishna Bhagavan and  L., Ravikumar},
+    title     = {Laser Diode Motion Simulator: Extending the capabilities of Hardware-in-Loop Space Rendezvous Testing},
+    journal = {Accepted in Advances in Robotics (AIR) Conference},
+    abstract = {In the realm of space exploration, the precision of spacecraft rendezvous operations is paramount. Traditional Hardware-in-the-Loop Simulation (HILS) facilities often encounter constraints due to limited track lengths, which can impede the accurate emulation of relative movements between spacecraft. To address this challenge, we have enhanced our HILS Space Rendezvous Robotic Testbed by integrating a Laser Diode (LD) Motion Simulator. The robotic testbed features two industrial robots—one equipped with photodetectors and the other with laser diodes—to replicate the relative motion between chaser and target spacecraft during proximity operations. To further augment this relative motion, the LDs are mounted on a motion mechanism. By physically moving the LDs, we can effectively simulate the dynamics of two spacecraft over extended distances without requiring large physical tracks. Preliminary experiments, encompassing both simulation and hardware implementations, have demonstrated the efficacy of this approach in overcoming spatial limitations and enhancing the realism of rendezvous testing scenarios.},
+    month     = {July},
+    year      = {2025},
+    preview   = {ldsim.gif}
 }
 
 @ARTICLE{Deevi_2025_NERF,
