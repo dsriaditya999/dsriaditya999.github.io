@@ -70,7 +70,7 @@ This gallery features memorable experiences from various esteemed institutes:
 </swiper-slide>
 
 <swiper-slide>
-    {% include figure.liquid loading="eager" path="assets/spadex.png" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/spadex.png" class="img-fluid rounded z-depth-1" %}
     <div class="overlay">Team Photograph after SPADEX Mission Success @ ISTRAC, ISRO</div>
 </swiper-slide>
   
