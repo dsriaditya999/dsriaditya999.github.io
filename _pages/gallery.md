@@ -264,6 +264,25 @@ This gallery showcases interesting pictures and results from some of the project
     </div>
   </swiper-slide>
 
+  <swiper-slide>
+    <div class="custom-slide">
+      <a>
+        {% include figure.liquid loading="eager" path="assets/img/rover.png" class="img-fluid rounded z-depth-1 custom-img" %}
+        <div class="overlay"> Rocker Bogie Rover StellarX built for Autonomous Rover Navigation and Mobile Manipulation </div>
+      </a>
+    </div>
+  </swiper-slide>
+
+  <swiper-slide>
+    <div class="custom-slide">
+      <a>
+        {% include figure.liquid loading="eager" path="assets/img/ld_simulator.png" class="img-fluid rounded z-depth-1 custom-img" %}
+        <div class="overlay"> Laser Diode Motion Simulator Paper Presented at AIR 2025 Conference </div>
+      </a>
+    </div>
+  </swiper-slide>
+
+
 </swiper-container>
 
 <br/><br/>
