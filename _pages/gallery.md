@@ -58,6 +58,21 @@ This gallery features memorable experiences from various esteemed institutes:
     {% include figure.liquid loading="eager" path="assets/img/img5.png" class="img-fluid rounded z-depth-1" %}
     <div class="overlay">Me with Perseverance MARS rover model @ JPL</div>
 </swiper-slide>
+
+<swiper-slide>
+    {% include figure.liquid loading="eager" path="assets/img/iitp.png" class="img-fluid rounded z-depth-1" %}
+    <div class="overlay">During ISRO Induction Training Programme @ SHAR, ISRO</div>
+</swiper-slide>
+
+<swiper-slide>
+    {% include figure.liquid loading="eager" path="assets/img/rsl.png" class="img-fluid rounded z-depth-1" %}
+    <div class="overlay">During SPADEX HIL Testing @ Rendezvous Simulation Laboratory, URSC</div>
+</swiper-slide>
+
+<swiper-slide>
+    {% include figure.liquid loading="eager" path="assets/spadex.png" class="img-fluid rounded z-depth-1" %}
+    <div class="overlay">Team Photograph after SPADEX Mission Success @ ISTRAC, ISRO</div>
+</swiper-slide>
   
 </swiper-container>
 
@@ -406,6 +421,27 @@ Here are snapshots from my personal life which offers a glimpse into the experie
   <div class="custom-slide">
     {% include figure.liquid loading="eager" path="assets/img/badri.png" class="img-fluid rounded z-depth-1 custom-img" %}
     <div class="overlay"> At Badrinath Temple </div>
+  </div>
+</swiper-slide>
+
+  <swiper-slide>
+  <div class="custom-slide">
+    {% include figure.liquid loading="eager" path="assets/img/nandi.png" class="img-fluid rounded z-depth-1 custom-img" %}
+    <div class="overlay"> At Nandi Hills </div>
+  </div>
+</swiper-slide>
+
+  <swiper-slide>
+  <div class="custom-slide">
+    {% include figure.liquid loading="eager" path="assets/img/thar.png" class="img-fluid rounded z-depth-1 custom-img" %}
+    <div class="overlay"> At Thar Desert </div>
+  </div>
+</swiper-slide>
+
+  <swiper-slide>
+  <div class="custom-slide">
+    {% include figure.liquid loading="eager" path="assets/img/paintball.png" class="img-fluid rounded z-depth-1 custom-img" %}
+    <div class="overlay"> Friendly Paintball Game </div>
   </div>
 </swiper-slide>
   
