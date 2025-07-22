@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2024-04-04
+date: 2024-08-23
 inline: true
 related_posts: false
 ---
 
-Joined [U.R. Rao Satellite Centre](https://www.ursc.gov.in) as a Scientist/Engineer - 'SC' in the Mission Simulation Group.
+Presented interactive demos showcasing our research group’s work to school students on [National Space Day](https://www.isro.gov.in/NSPD2024/).

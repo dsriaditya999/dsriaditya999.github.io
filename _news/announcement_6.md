@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2024-08-23
+date: 2025-02-04
 inline: true
 related_posts: false
 ---
 
-Presented interactive demos showcasing our research group’s work to school students on [National Space Day](https://www.isro.gov.in/NSPD2024/).
+Our paper, [Efficient Self-Supervised Neural Architecture Search](https://ieeexplore.ieee.org/document/10857490) published in the Proceedings of [International Conference on Ubiquitous Information Management and Communication (IMCOM) 2025](http://imcom.org/).
