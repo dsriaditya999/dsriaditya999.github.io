@@ -9,19 +9,19 @@ nav: true
 
 <div class="row justify-content-around">
     <div class="caption">
-    Quantum Technologies Training Programme
+    Advanced Control Workshop
     </div>
     <div class="caption">
-    Advanced Control Workshop
+    Quantum Technologies Training Programme
     </div>
 </div>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/quantum_ursc.png" title="Quantum Technologies Training Programme" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/control_iisc.png" title="Advanced Control Workshop" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/control_iisc.png" title="Advanced Control Workshop" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/quantum_ursc.png" title="Quantum Technologies Training Programme" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
