@@ -7,6 +7,24 @@ description:
 nav: true
 ---
 
+<div class="row justify-content-around">
+    <div class="caption">
+    Quantum Technologies Training Programme
+    </div>
+    <div class="caption">
+    Advanced Control Workshop
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/quantum_ursc.png" title="Quantum Technologies Training Programme" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/control_iisc.png" title="Advanced Control Workshop" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
 <div class="caption">
     National Conference on Computer Vision, Pattern Recognition, Image Processing and Graphics (NCVPRIPG) 2024
 </div>
