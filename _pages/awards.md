@@ -140,7 +140,7 @@ nav: true
     <div class="header">
       <div class="title-container">
         <div class="plus">+</div>
-        <div class="title"> Institute Gold Medal of Academic Excellence (Undergraduate) - <a href="https://www.iist.ac.in/academics/convocation" target="_blank">IIST</a></div>
+        <div class="title"> Institute Gold Medal of Academic Excellence (Undergraduate) - <a href="https://www.iist.ac.in/convocation/tenth-convocation-17-december-2022" target="_blank">IIST</a></div>
       </div>
       <div class="year">2022</div>
     </div>
