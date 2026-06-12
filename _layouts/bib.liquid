@@ -184,6 +184,7 @@
 
     <!-- Links/Buttons -->
     <div class="links">
+      <button class="cite-btn" title="Copy BibTeX citation">Cite</button>
       {% if entry.award %}
         <a class="award btn btn-sm z-depth-0" role="button">
           {%- if entry.award_name %}{{ entry.award_name }}{% else %}Awareded{% endif -%}
@@ -318,6 +319,9 @@
         </div>
       {% endif %}
     {% endif %}
+
+    <!-- Hidden BibTeX for Cite button -->
+    <template class="bibtex-template">{{ entry.bibtex }}</template>
 
     {% if entry.award %}
       <!-- Hidden Award block -->

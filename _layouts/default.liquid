@@ -17,6 +17,33 @@
 
   <!-- Body -->
   <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
+    <!-- Reading Progress Bar -->
+    <div id="reading-progress-bar"></div>
+
+    <!-- Command Palette -->
+    <div id="cmd-overlay" role="dialog" aria-modal="true" aria-label="Command palette">
+      <div id="cmd-palette">
+        <div id="cmd-search-wrap">
+          <span id="cmd-search-icon">⌕</span>
+          <input id="cmd-input" type="text" placeholder="Search pages, publications, projects…" autocomplete="off" spellcheck="false">
+          <kbd id="cmd-esc-hint">esc</kbd>
+        </div>
+        <div id="cmd-results"></div>
+        <div id="cmd-footer">
+          <span><kbd class="cmd-key">↑</kbd><kbd class="cmd-key">↓</kbd> navigate</span>
+          <span class="cmd-footer-sep">·</span>
+          <span><kbd class="cmd-key">↵</kbd> open</span>
+          <span class="cmd-footer-sep">·</span>
+          <span><kbd class="cmd-key">esc</kbd> close</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Command palette keyboard hint pill -->
+    <div id="cmd-hint-pill">
+      <kbd class="cmd-key">⌘K</kbd> Search site
+    </div>
+
     <!-- Header -->
     {% include header.liquid %}
 
@@ -74,5 +101,6 @@
     {% include scripts/back_to_top.liquid %}
     {% include scripts/search.liquid %}
     <script src="{{ '/assets/js/shortcut-key.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/fancy.js' | relative_url | bust_file_cache }}"></script>
   </body>
 </html>

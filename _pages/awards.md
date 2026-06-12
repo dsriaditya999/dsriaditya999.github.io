@@ -70,7 +70,7 @@ nav: true
 
 .award-item .year {
   font-size: 1.5em;
-  color: rgba(224, 224, 224, 0.9); /* More translucent year */
+  color: var(--global-text-color-light);
   text-align: center;
   flex-basis: 100px;
   flex-shrink: 0;
