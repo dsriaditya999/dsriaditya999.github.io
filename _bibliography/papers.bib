@@ -49,10 +49,11 @@
 @ARTICLE{Deevi_2025_ldsim,
     author    = {Deevi, Sri Aditya and Chaudhary, Aakash and Lakkoju, Samuel and Kumar, Yajur and G., Murali Krishna Bhagavan and  L., Ravikumar},
     title     = {Laser Diode Motion Simulator: Extending the capabilities of Hardware-in-Loop Space Rendezvous Testing},
-    journal = {Accepted in Advances in Robotics (AIR) Conference},
+    journal = {Proceedings of Advances in Robotics (AIR) Conference},
     abstract = {In the realm of space exploration, the precision of spacecraft rendezvous operations is paramount. Traditional Hardware-in-the-Loop Simulation (HILS) facilities often encounter constraints due to limited track lengths, which can impede the accurate emulation of relative movements between spacecraft. To address this challenge, we have enhanced our HILS Space Rendezvous Robotic Testbed by integrating a Laser Diode (LD) Motion Simulator. The robotic testbed features two industrial robots—one equipped with photodetectors and the other with laser diodes—to replicate the relative motion between chaser and target spacecraft during proximity operations. To further augment this relative motion, the LDs are mounted on a motion mechanism. By physically moving the LDs, we can effectively simulate the dynamics of two spacecraft over extended distances without requiring large physical tracks. Preliminary experiments, encompassing both simulation and hardware implementations, have demonstrated the efficacy of this approach in overcoming spatial limitations and enhancing the realism of rendezvous testing scenarios.},
     month     = {July},
     year      = {2025},
+    html      = {https://dl.acm.org/doi/10.1145/3787370.3787445},
     poster    = {ldsim_poster.pdf},
     preview   = {ldsim.gif}
 }
@@ -71,18 +72,21 @@
 @ARTICLE{Deevi_2025_lowthrust,
     author    = {Kumar, Suraj and Deevi, Sri Aditya and Rallapalli, Aditya and GVP, Bharat Kumar},
     title     = {Adaptive Q-law Control for Closed-loop Electric Propulsion Orbit Transfer},
-    journal = {Accepted in American Institute of Aeronautics and Astronautics (AIAA) Scitech Forum},
+    journal = {American Institute of Aeronautics and Astronautics (AIAA) Scitech Forum},
     abstract = {This paper proposes an adaptive Q-law controller for closed-loop low-thrust, many-revolution orbit transfers. A Lyapunov-based modification of the classical Q-law controller is introduced to ensure closed-loop stability and real-time implementability for GTO-GEO transfer. To optimize the control gains for minimum-time transfers, a novel simulation-based two-stage hybrid optimization framework is developed. Unlike the classical Q-law with fixed control gains, the proposed approach makes the control gains explicitly state- and time-dependent by parameterizing them with a neural network. In the first, offline stage, Sobol-sequenced random samples of the network weights and their corresponding orbit transfer times are used to compute the empirical mean and a regularized covariance of the top performers. This distribution then warm-starts the gradient-free Covariance Matrix Adaptation Evolution Strategy (CMA-ES) optimizer, directing its search toward the most promising regions. The second, online stage employs an optimization loop, where the archive-seeded CMA-ES iteratively samples candidate network weights, evaluates them on the high-fidelity simulator, and updates its search distribution until convergence. Finally, the optimized neural controller is distilled into a polynomial function approximator for onboard implementation.},
     month     = {January},
     year      = {2026},
-    preview   = {lowthrust.gif}
+    html      = {https://arc.aiaa.org/doi/abs/10.2514/6.2026-2857},
+    slides    = {lowthrust_ppt.pdf},
+    preview   = {lowthrust.gif},
+    selected  = {true}
 }
 
 
 @ARTICLE{Deevi_2025_RSL,
     author    = {L., Ravikumar and Lakkoju, Samuel and Bhanu, Kartikeyan and Deevi, Sri Aditya and Chaudhary, Aakash and G., Murali Krishna Bhagavan and S., Sudhakar},
     title     = {High Fidelity Hardware-in-Loop Simulation of Autonomous Spacecraft Rendezvous and Docking using Dual-Robot Platform on Track},
-    journal = {Submitted in 2025 International Conference on Space Robotics (iSpaRo)},
+    journal = {Accepted in 2025 International Conference on Space Robotics (iSpaRo)},
     abstract = {In this paper, we present the Rendezvous Simulation Laboratory (RSL), a high‑fidelity hardware‑in‑the‑loop facility built around dual 6‑DoF robotic manipulators mounted on an 18 m linear track to emulate autonomous spacecraft rendezvous and docking. We demonstrate sub‑millimetre positioning accuracy and robust soft‑docking in closed‑loop tests under varying approach trajectories, lighting conditions, and communication delays. Finally, we validate navigation, guidance, and control algorithms for proximity operations in ISRO’s SPADEX mission through exhaustive ground verification and outline proposed extensions to RSL for future docking and on‑orbit servicing missions.},
     month     = {December},
     year      = {2025},
